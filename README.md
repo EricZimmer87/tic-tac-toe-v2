@@ -22,7 +22,7 @@ Tic-Tac-Toe-V2/
 
 ## Demo
 
-[Live Demo]([https://your-deployment-link.com](https://ejzimmer.com/tic-tac-toe-v2/))  
+[Live Demo](https://ejzimmer.com/tic-tac-toe-v2/)  
 _Note: I wrote this before studying LeetCode and advanced JS topics — so it’s a bit verbose, but fully functional!_
 
 ## Screenshot
