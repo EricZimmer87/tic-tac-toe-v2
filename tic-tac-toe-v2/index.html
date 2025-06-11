@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../EZ.svg">
+    <link rel="stylesheet" href="styles.css">
+    <title>TicTacToe</title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="player-mode-container" id="player-mode-container">
+        <button class="button player-mode-button" id="single-player-button">Single Player</button>
+        <button class="button player-mode-button" id="two-player-button">Two Player</button>
+    </div>
+
+    <form class="player-form" id="player1-form">
+        <h3>Player 1</h3>
+        <label for="player1-name">Name:</label>
+        <input type="text" id="player1-name" placeholder="Player 1">
+
+        <div class="x">
+            <label for="player1-x">X</label>
+            <input type="checkbox" id="player1-x" checked>
+        </div>
+        <div class="o">
+            <label for="player1-o">O</label>
+            <input type="checkbox" id="player1-o">
+        </div>
+        <br />
+        <button class="button player-submit-button" id="player1-submit-button">Continue</button>
+    </form>
+
+    <form class="player-form" id="player2-form">
+        <h3>Player 2</h3>
+        <label for="player2-name">Name:</label>
+        <input type="text" id="player2-name" placeholder="Player 2">
+        <br />
+        <br />
+        <button class="button player-submit-button" id="player2-submit-button">Continue</button>
+    </form>
+
+    <div id="message-container">
+        <h3 id="message"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

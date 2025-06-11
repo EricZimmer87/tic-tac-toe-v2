@@ -1,0 +1,105 @@
+html {
+    padding-bottom: 400px;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.board-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    background-color: #000;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+    font-size: 2em;
+    background-color: #fff;
+}
+
+.square:hover {
+    background-color: #eee;
+}
+
+.player-form,
+.player-mode-container {
+    text-align: center;
+}
+
+#player1-form,
+#player2-form {
+    display: none;
+}
+
+#message-container {
+    display: none;
+}
+
+#message {
+    text-align: center;
+}
+
+.victory-board {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#victory-message {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.new-game-button-container {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 15%;
+}
+
+.winning-square {
+    background-color: #eee;
+    color: #000;
+    font-size: 3em;
+    font-weight: bold;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.button:hover,
+.button:active {
+    background-color: #eee;
+}
+
+.button:active {
+    transform: translateY(10%);
+}
